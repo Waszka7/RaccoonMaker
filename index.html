@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html lang="pl-PL">
+<head>
+
+	<meta charset="utf-8">
+	<title>Raccoon</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="header">
+		<h1>RaccoonMaker</h1>
+	</div>
+
+	<div class="content">
+		<form class="form">
+		
+			<br>Body color: <input type="color" value="#737373" id="bodyColor"><br><br>
+			Nose color: <input type="color" value="#FF7AF4" id="noseColor"><br><br>
+			Tail color 1: <input type="color" value="#737373" id="tailColor1"><br><br>
+			Tail color 2: <input type="color" value="#000000" id="tailColor2"><br><br>
+			
+			Width: <input type="range" value="0" min="-1100" max="1100" id="valueX"><br><br>
+			Height: <input type="range" value="0" min="-600" max="600" id="valueY"><br><br>
+			
+			Tail thickness: <input type="range" value="15" min="3" max="20" id="tailThickness"><br><br>
+			
+			Eyes:<br>
+			<input type="button" value="open" id="eyes1" class="button" onclick="openingEyes()">
+			<input type="button" value="close" id="eyes2" class="button" onclick="closingEyes()"><br><br>
+			
+			<div class="center"><input type="reset" value="Reset!" onclick="resetRaccoon()" class="button"></div>
+		</form>
+	</div>
+
+		<canvas width="1800" height="900" id="canvas"></canvas>
+		
+	
+	<script src="main.js"></script>	
+</body>
+</html>
