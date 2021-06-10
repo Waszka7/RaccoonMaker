@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
+	font-variant: small-caps;
 }
 
 h1{
@@ -20,7 +21,7 @@ h1{
 .header{
 	background-color: #262626;
 	width: 100%;
-	height: 10%;
+	height: 11%;
 }
 
 .button{
@@ -54,7 +55,7 @@ h1{
 	position: absolute;
 	background-color: #333333;
 	color: white;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 1px 1px 2px black;
 }
 
 
